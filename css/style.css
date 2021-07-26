@@ -1,12 +1,15 @@
-html{
+:root{
   --display-text: 'Open Sans', sans-serif;
   --reading-text: 'Oswald', sans-serif;
-  background: url('img/background.jpg');
+
+  background: url('../img/background.jpg');
   width: 100vw;
-  font-family: var(--reading-text);
 }
 
-header h1 {
+body{
+  font-family: var(--reading-text);
+}
+h1 {
   font-size: 4rem;
   text-align: center;
   font-family: var(--display-text);
@@ -24,15 +27,16 @@ nav ul{
   font-size: 2rem;
 }
 
+nav ul li{
+  position: relative;
+}
 nav ul li ul {
   visibility: hidden;
+  position: absolute;
+  left: 0;
 }
 
-nav :hover nav ul li ul {
-  visibility: visible;
-}
-
-nav ul li ul {
+nav ul li:hover ul {
   visibility: visible;
 }
 
