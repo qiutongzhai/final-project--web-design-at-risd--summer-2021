@@ -9,7 +9,7 @@ html{
   width: 100%;
   background-image:
 
-  linear-gradient(to right, #e7ded5,#e7ded5), url('../img/hand-fill.jpg');
+  linear-gradient(to right, #e7ded5,#e7ded5), url('../img/hand-fill-1.jpg');
   background-repeat: no-repeat, no-repeat;
   background-position: bottom right, left;
   background-size: calc(100% - 200px) calc(100% - 140px), 100vw 100vh;
@@ -60,7 +60,7 @@ text-align: center;
 section{
   padding-left: 40px;
   margin-left: 210px;
-  margin-top: 50px;
+  margin-top: 150px;
 }
 
 p {
